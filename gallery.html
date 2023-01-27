@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: #fff;
+            padding: 10px;
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            display: inline-block;
+        }
+        .grid-wrapper > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .grid-wrapper > div > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .grid-wrapper{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-auto-rows: 200px;
+            grid-auto-flow: dense;
+        }
+        .grid-wrapper .wide{
+            grid-column: span 2;
+        }
+        .grid-wrapper .tall{
+            grid-row: span 2;
+        }
+        .grid-wrapper .big{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-wrapper">
+        <div>
+            <img src="https://cdn.anscommerce.com/catalog/brandstore/johnson/17_7_20/Sale.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://m.economictimes.com/thumb/msid-93171891,width-1200,height-800,resizemode-4,imgsize-33064/luxury-watch.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://navbharattimes.indiatimes.com/thumb/msid-87022576,imgsize-171140,width-540,height-405,resizemode-75/men39s-watches-87022576.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://cdn.anscommerce.com/catalog/brandstore/UN-Finder.jpg" alt="">
+        </div>
+        <div>
+            <img src="http://cdn.shopify.com/s/files/1/0082/6363/0953/products/WhatsApp_Image_2019-11-07_at_11.24.25_1_1200x1200.jpg?v=1573111799" alt="">
+        </div>
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0548/8849/7221/files/Cosmic_1_2dd1b6f8-0b9d-4de8-924f-f7d88ca28ecc_800x.png?v=1657029121" alt="">
+        </div>
+        <div>
+            <img src="https://img.joomcdn.net/617d196ddc6a1d2f68333b3e3addf205f16902cb_original.jpeg" alt="">
+        </div>
+        <div>
+            <img src="https://navbharattimes.indiatimes.com/photo/msid-86859685,imgsize-70402/pic.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://rukminim1.flixcart.com/image/832/832/kxxl9jk0/watch/o/g/s/1-abx-2-0-2-9-black-sports-watch-digital-watch-abrexo-boys-original-imaga9tgyctxeaga.jpeg?q=70" alt="">
+        </div>
+        <div>
+            <img src="https://shop.timexindia.com/pub/media/catalog/product/cache/d1278743bcf4dd9ae554a45c3451b6fa/f/e/feature-banner-black.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend-FI-black_03_1500x.jpg?v=1673003103" alt="">
+        </div>
+        <div>
+            <img src="https://www.sonatawatches.in/wps/wcm/connect/sonata/5a9924a7-736d-43f3-8b3b-f14f22e1751a/SF-300x300-Mega-menu.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O04180QIVM4BVG00L3-5a9924a7-736d-43f3-8b3b-f14f22e1751a-nFi1iKM" alt="">
+        </div>
+        <div>
+            <img src="https://img5.gadgetsnow.com/gd/images/products/additional/original/G183909_View_1/watches/men-watches/rishtey-magnetic-strap-styish-luxury-analog-watch-for-women-and-girls.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://img.tatacliq.com/images/i8/437Wx649H/MP000000013257278_437Wx649H_202205261842581.jpeg" alt="">
+        </div>
+        <div>
+            <img src="https://gshock.casio.com/content/casio/locales/us/en/brands/gshock/_jcr_content/root/responsivegrid/container_1117245429_231474177/container_59280010/content_panel_list/content_panel_202202_1647222525/image.casiocoreimg.png/1674575340820/yellow-accent-thumbnail.png" alt="">
+        </div>
+        <div>
+            <img src="https://rukminim1.flixcart.com/image/832/832/kdhphu80-0/watch/x/d/c/new-style-rose-gold-and-copper-star-diamond-analog-wrist-watch-original-imafudzfwhctbykg.jpeg?q=70" alt="">
+        </div>
+    </div>
+</body>
+</html>
